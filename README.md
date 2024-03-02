@@ -11,7 +11,7 @@ The experiments involve assessing four key design factors—Tile Size, Match Sco
 
 Tile Size: The ratio of a tile’s height to the overall screen height. Region of Operability = [0.1, 0.5]
 
-Match Score: A prediction of how much you will enjoy watching the show or movie, based on your viewing history. This is recorded as a percentage, with larger values indicating a higher likelihood of enjoyment. Region of Operability = [0, 100]
+Match Score: A prediction of how much you will enjoy watching the show or movie, based on your viewing history. Region of Operability = [0, 100]
 
 Preview Length: The duration (in seconds) of a show or movie’s preview. Region of Operability = [30, 120]
 
