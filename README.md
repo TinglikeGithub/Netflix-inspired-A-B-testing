@@ -4,7 +4,15 @@ My name is Ting Pan. I am currently pursuing a Master's degree in Data Science, 
 
 **Project Description**
 
-Netflix-inspired experiments with multiple design factors aim to minimize user browsing time by examining four primary factors: Tile Size, Match Score, Preview Length, and Preview Type. 
+
+The objective of these Netflix-inspired experiments is to enhance the Netflix homepage by reducing browsing time, which refers to the duration users spend navigating the platform. Extended browsing periods can negatively impact user engagement by inundating users with choices, potentially diminishing their interest in viewing content. 
+
+The experiments involve assessing four key design factors—Tile Size, Match Score, Preview Length, and Preview Type—to identify their influence on browsing time. By conducting a series of experiments, I aim to determine the significant factors affecting browsing time and identify the optimal configuration that minimizes expected browsing time.
+
+Tile Size: The ratio of a tile’s height to the overall screen height. Region of Operability = [0.1, 0.5]
+Match Score: A prediction of how much you will enjoy watching the show or movie, based on your viewing history. This is recorded as a percentage, with larger values indicating a higher likelihood of enjoyment. Region of Operability = [0, 100]
+Preview Length: The duration (in seconds) of a show or movie’s preview. Region of Operability = [30, 120]
+Preview Type: The type of preview that is autoplayed. Region of Operability = {TT, AC}: TT stands for teaser/trailer and AC stands for actual content
 
 **Outcome**
 
